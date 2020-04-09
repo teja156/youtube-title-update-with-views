@@ -15,6 +15,7 @@ import ast
 import smtplib
 
 
+#List of client secret keys downloaded from Google API Console.
 CLIENT_SECRETS_FILE = ["client_secret_techraj1.json","client_secret_techraj2.json","client_secret_techraj3.json",
 "client_secret_techraj4.json","client_secret_techraj5.json","client_secret_techraj6.json",
 "client_secret_techraj7.json","client_secret_techraj8.json"]

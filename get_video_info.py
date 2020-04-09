@@ -89,10 +89,6 @@ SAMPLE JSON RESPONSE :
 
 
 import os
-
-import google_auth_oauthlib.flow
-import googleapiclient.discovery
-import googleapiclient.errors
 import requests
 import json
 import urllib.parse
@@ -100,8 +96,6 @@ import urllib.parse
 
 #VIDEO_ID = "fs_l_rovfBk" #Test video Teja Swaroop Channel
 VIDEO_ID = os.getenv("VIDEO_ID")
-#VIDEO_ID = "jTIUgshJjds"
-#API_KEY = "AIzaSyBNAyk2TAuFy5zfHWGomG3dGyAPTx_t2cw"
 API_KEY = os.getenv("API_KEY")
 scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
 
